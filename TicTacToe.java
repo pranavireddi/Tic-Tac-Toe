@@ -16,6 +16,9 @@ public class TicTacToe{
                 break;
             }
             computerTurn(board);
+            if(isGameFinished(board)){
+                break;
+            }
     
             printBoard(board);
         }
